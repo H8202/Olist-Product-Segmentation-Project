@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project uses **Brazilian e-commerce (Olist) data from Kaggle** to segment products based on profitability, customer satisfaction, and operational efficiency.  
-The goal is to **uncover actionable business strategies** for each segment — demonstrating skills in **SQL (data extraction & feature engineering), Python (EDA, ML), and business analytics**.
+The goal is to **uncover actionable business strategies** for each segment — demonstrating skills in **SQL (data extraction & feature engineering), Python (EDA, ML), and business analytics**. This project strives to demonstrate end-to-end data skills relevant to Industrial Engineering and Data Science — from data extraction to statistical analysis and segmentation modeling.
 
 ---
 
@@ -25,7 +25,7 @@ The goal is to **uncover actionable business strategies** for each segment — d
 - **SQL (PostgreSQL / pgAdmin4):** Multi-CTE queries, aggregations, joins, feature engineering
 - **Python Libraries:** pandas, NumPy, scikit-learn, matplotlib, seaborn
 - **ML Techniques:** Data scaling, correlation analysis, pipelines, KMeans clustering, silhouette analysis
-- **Visualization:** Heatmaps, violin plots, PCA cluster plots
+- **Visualization:** Heatmaps, violin plots, cluster plots
 
 ---
 
@@ -66,7 +66,7 @@ Created a **feature table** in PostgreSQL using `WITH` clauses and aggregations 
 
 | Cluster | Name | Characteristics | Suggested Actions |
 |---------|------|-----------------|-------------------|
-| 0 | **Consistently Mediocre** | Average profit, satisfaction, efficiency | Holistic process improvement, customer experience initiative |
+| 0 | **Consistently Mediocre** | Low to Average profit, satisfaction, efficiency | Holistic process improvement, customer experience initiative |
 | 1 | **Service Stars, Profit Laggards** | High satisfaction & efficiency, low profit | Cut production costs, optimize pricing |
 | 2 | **Profit Hunters, Experience Neglecters** | High profit, low service/efficiency | Improve delivery reliability, loyalty programs |
 | 3 | **Efficient but Low-Value** | High efficiency, low satisfaction/profit | Reposition products, bundle promotions |
@@ -76,10 +76,15 @@ Created a **feature table** in PostgreSQL using `WITH` clauses and aggregations 
 
 ## Skills Demonstrated
 - **SQL:** Multi-table joins, CTEs, aggregation, feature engineering
+- **SQL Feature Engineering:** Designed and executed complex queries in PostgreSQL (via pgAdmin4) to aggregate sales, pricing, and review metrics per product
+- **Exploratory Data Analysis (EDA):** Analyzed distributions, trends, and outliers using pandas, matplotlib, and seaborn
+- **Data Cleaning & Preparation:** Handled missing values, removed irrelevant columns, standardized formats, and prepared the dataset for modeling
+- **Feature Engineering:** Created custom metrics such as average delivery delay, freight-to-price ratio, price variability, and low-review percentage
+- **Scaling and Preprocessing:** Applied StandardScaler(), FunctionTransformer(), PowerTransformer(), ColumnTransformer() to prepare data for modeling
+- **Unsupervised Machine Learning:** Applied K-Means clustering to segment products into categories such as Service Stars, Profit Laggards, and Fast Movers
+- **Data Visualization:** Produced violin plots, bar charts, heatmaps, and box plots to illustrate product differences between clusters
+- **Business Insight Generation:** Interpreted clusters to suggest product strategy improvements for different segments
 - **Industrial Engineering:** Operational KPI analysis, supply chain optimization insights
-- **Data Science:** Clustering, feature selection, scaling
-- **Business Analytics:** Translating data into actionable recommendations
-- **Visualization:** Storytelling with plots & heatmaps
 
 ---
 
