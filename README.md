@@ -62,7 +62,7 @@ Created a **feature table** in PostgreSQL using `WITH` clauses and aggregations 
 
 ---
 
-## 📊 Key Results – Product Segments
+## Key Results – Product Segments
 
 | Cluster | Name | Characteristics | Suggested Actions |
 |---------|------|-----------------|-------------------|
@@ -74,7 +74,7 @@ Created a **feature table** in PostgreSQL using `WITH` clauses and aggregations 
 
 ---
 
-## 📈 Skills Demonstrated
+## Skills Demonstrated
 - **SQL:** Multi-table joins, CTEs, aggregation, feature engineering
 - **Industrial Engineering:** Operational KPI analysis, supply chain optimization insights
 - **Data Science:** Clustering, feature selection, scaling
@@ -83,7 +83,23 @@ Created a **feature table** in PostgreSQL using `WITH` clauses and aggregations 
 
 ---
 
-## 📬 Future Improvements
+## Future Improvements
 - Automate SQL extraction & Python modeling pipeline
 - Test hierarchical clustering for alternative insights
 - Build an interactive dashboard (Power BI or Plotly Dash) for real-time exploration
+
+## License & Data Attribution
+This project uses data from the [Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) on Kaggle, 
+licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format.
+- **Adapt** — remix, transform, and build upon the material.
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit to Olist.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+
+This project is intended **solely for educational and non-commercial purposes**.
+
